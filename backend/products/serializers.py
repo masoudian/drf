@@ -9,6 +9,7 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = [
             'title',
             'content',
+            'price',
             'sale_price',
             'my_discount',
         ]
